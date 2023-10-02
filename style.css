@@ -66,6 +66,12 @@ header{
 
 
 /* main  section style start */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .donate-today-section-container{
     width: 100%;
@@ -146,6 +152,7 @@ font-weight: 400;
     text-align: center;
     margin-top: 8.12rem;
     margin-bottom: 6.9rem;
+  
 }
 
 .donate-plan>h1{
@@ -166,6 +173,7 @@ font-weight: 400;
     display: flex;
     margin: 0 9rem;
     gap:1.5rem;
+    /* justify-content: space-around; */
 }
 
 .plan-card{
@@ -211,3 +219,7 @@ font-weight: 400;
 
 
 /* Our donate plan style ends */
+
+
+
+/* Donate-content section style start */
