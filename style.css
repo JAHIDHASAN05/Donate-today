@@ -67,7 +67,7 @@ header{
 
 /* main  section style start */
 
-main{
+.donate-today-section-container{
     width: 100%;
     display: flex;
     align-items: center;
@@ -134,3 +134,80 @@ main{
 font-size: 1.125rem;
 font-weight: 400;
 }
+
+
+/* donate today styles ends */
+
+
+
+/* Our donate plan style start */
+
+.donate-plan-section-container{
+    text-align: center;
+    margin-top: 8.12rem;
+    margin-bottom: 6.9rem;
+}
+
+.donate-plan>h1{
+    font-size: 2.88rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    color: #121212;
+}
+
+.donate-plan>p{
+    color: #707070;
+    font-size: 1rem;
+    margin-bottom: 3.25rem;
+}
+
+
+.donate-plan-card{
+    display: flex;
+    margin: 0 9rem;
+    gap:1.5rem;
+}
+
+.plan-card{
+    padding: 3.8rem 1.44rem;
+    width: 22.5rem;
+    height: 22rem;
+    background-color: pink;
+    text-align: start;
+}
+
+.plan-card>img{
+    width: 3.6rem;
+    height: 3.11rem;
+    margin-top: 3.7rem;
+    margin-bottom: 1.98rem;
+}
+.plan-card>h6{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #121212;
+
+}
+.plan-card>p{
+    color: #707070;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+}
+
+.plan-card1{
+    background: rgba(79, 157, 166, 0.10);
+
+}
+.plan-card2{
+    background: rgba(255, 89, 89, 0.10);
+
+}
+.plan-card3{
+    background: #fff4d6;
+}
+
+
+/* Our donate plan style ends */
