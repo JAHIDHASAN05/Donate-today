@@ -317,6 +317,8 @@ font-weight: 400;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     background-color: #d9d9d9;
+     color: #AA9F9F;
+     padding-left: 1rem;
 }
 
 .update-box button{
@@ -327,6 +329,7 @@ font-weight: 400;
     border-radius: .312rem;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
+    color: white;
 }
 
 
