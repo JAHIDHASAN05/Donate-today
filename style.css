@@ -272,4 +272,59 @@ font-weight: 400;
 /* Donate-content section style ends */
 
 
+/* Get My update section container styles */ 
 
+.update-section-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.update-section-container>h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #121212;
+    margin-bottom: 1.25rem;
+}
+
+.update-section-container>p{
+    color: #707070;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 3.25rem;
+}
+
+
+.update-section-container div{
+    height: 9rem;
+    width: 50rem;
+    background-color: #fff4d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.update-box input{
+    border: none ;
+    width: 17rem;
+    height: 2rem;
+    border-radius: .312rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #d9d9d9;
+}
+
+.update-box button{
+    width: 9rem;
+    height: 2rem;
+    background-color :#ff5959;
+    border: none;
+    border-radius: .312rem;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
